@@ -1,0 +1,6 @@
+info:
+    hello,prod
+# git仓库的地址 
+spring.cloud.config.server.git.uri=https://gitee.com/safika/spring-cloud-config.git 
+# 使本地的配置保持最新的 
+spring.cloud.config.server.git.force-pull=true
